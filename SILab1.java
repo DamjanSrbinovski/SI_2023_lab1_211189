@@ -17,7 +17,7 @@ public class SILab1 {
         int sum = 1;
         for (Integer el : list) {
             if (el % 2 == 0) {
-                sum *= el;
+                sum += el;
             }
         }
         return sum;

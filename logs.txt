@@ -1,0 +1,24 @@
+$ git log
+commit 4925e902c5829d69e68c823f66f43e65bb134599 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: Damjan Srbinovski <damjan_srbinovski@live.com>
+Date:   Fri Mar 17 10:43:28 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit e995c27672287f2cc436962100c4f44deac25ea9
+Merge: 363fc56 fba6f05
+Author: Damjan Srbinovski <damjan_srbinovski@live.com>
+Date:   Fri Mar 17 10:48:53 2023 +0100
+
+    Merge branch 'bug2'
+    merging the bugs
+
+commit fba6f05755b01d77b41cedba22b6b488a0776bba (origin/bug2, bug2)
+Author: Damjan Srbinovski <damjan_srbinovski@live.com>
+Date:   Fri Mar 17 10:41:22 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 363fc5656797d1ef442d57f889cc55413b2aac35 (origin/bug1, bug1)
+Author: Damjan Srbinovski <damjan_srbinovski@live.com>
+:

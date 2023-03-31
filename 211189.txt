@@ -1,1 +1,29 @@
-2111189
+1. git init na kreiraniot folder so toa kreirame lokalno git repositery
+2. git remote add origin https://github.com/DamjanSrbinovski/SI_2023_lab1_211189.git linkuvanje so remote repoto.
+3. git config --global user.email "damjan_srbinovski@live.com"
+  git config --global user.name "Damjan Srbinovski"
+ so ova inicijalizirame koj e korisnikot sto go koristi git shellot
+4. notepad README.md (dodavanje na text file)
+5. git add README.md (prefrluvanje na kreiraniot file na scena)
+6. git commit -m "Initial commit" (gi dodavame site promeni koi se napraveni na lokalnoto repo).
+7. Kreiranje na lokalen file preku Intelij za dodavanje na nova java class.
+8. So add . gi dodavame site izmeni i go stavame SIlab1.java fileot na scena.
+9. Kreiranje na novi branchovi (git branch): bug1, bug2, bug3 soodvetno.
+10. So pomos na komandata git checkout bug1 se prefrlame na prvata granka kade sto se isprava greska vo ciklusot. 
+11. So ogled na toa deka fileot e modified treba da napravime samo commit na soodvetnata granka.
+12. Prefrluvanje so git checkout na bug2, menuvanje vo kodot za prebaruvanje na neparni broevi. soodvetno pravime commit i na ovaa granka.
+13. So git checkout na bug3 se prefrlame na bug3 i pravime fix vo metodot kade sto menuvame += namesto *=.
+14. git checkout master, se prefrlame na master grankata.
+15. git push --all za da gi sinhronizirame so remote repoto.
+15. git checkout master za da se vratime na master grankata.
+16. git merge bug1 za da gi spoime bug1 so master.
+17. git push -u origin master kade gi sinhronizirame so remote repo.
+18. Se naogjame vekje na master taka da pravime samo git merge so bug2 kade ima konflikt no se razreshuva.
+19. git push - u origin master (sinhronizirame so remote)
+20. so git checkout bug3 se prefrlame na bug3 kade pravime rebase so master i odime so git checkout master i pravime rebase so bug3.
+21. git push --all --force (za da sinhronizirame so remote repo)
+22. Pravenje nova datoteka kade sto pravime notepad 211189.txt(za vodenje dokumentacija) i logs.txt(tuka se dodadeni site logovi).
+23. git add . za tracknuvanje na promenite.
+24. git commit -m so final commit.
+25. final commit kade kje ja dodadam poslednata modifikacija na 211189.txt kade sto trebashe da stoi dokumentacijata i sinhronizacija so git push --all.
+    
